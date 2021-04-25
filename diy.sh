@@ -104,12 +104,4 @@ if [ $ProcNumber -le 0 ];then
 else
    echo -e "终端进程运行中\n"
 fi
-autojshare="/jd/jshare.sh"
-if [[ ! -f "$autojshare" ]]; then
-  echo "jshare.sh文件不存在"
-else
-	cd /jd
-	sed -i "s/4/1000/" /jd/jshare.sh
-	echo -e "改ck限制成功"
-fi
 exit 0
