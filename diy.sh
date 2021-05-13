@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo -e "开始面板文件 "
+echo -e "开始下载面板文件 "
 PanelPath="/jd/panel"
 if [[ ! -d "$PanelPath" ]]; then
  mkdir "$PanelPath"
