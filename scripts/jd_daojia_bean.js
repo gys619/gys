@@ -2,14 +2,14 @@
 #鲜豆庄园
 [task_local]
 #鲜豆庄园
-0-59/30 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js, tag=鲜豆庄园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+0-59/30 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_daojia_bean.js, tag=鲜豆庄园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 ================Loon==============
 [Script]
-cron "0-59/30 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js,tag=鲜豆庄园
+cron "0-59/30 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_daojia_bean.js,tag=鲜豆庄园
 ===============Surge=================
-鲜豆庄园 = type=cron,cronexp="0-59/30 * * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js
+鲜豆庄园 = type=cron,cronexp="0-59/30 * * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_daojia_bean.js
 ============小火箭=========
-鲜豆庄园 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js, cronexpr="0-59/30 * * * *", timeout=3600, enable=true
+鲜豆庄园 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_daojia_bean.js, cronexpr="0-59/30 * * * *", timeout=3600, enable=true
 */
 const $ = new Env('鲜豆庄园');
 
