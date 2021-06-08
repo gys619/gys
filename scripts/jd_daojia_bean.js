@@ -1,5 +1,11 @@
 /*
-11 0 * * *
+[task_local]
+
+10 0 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
+
+[Script]
+
+cron "10 0 * * *"
 */
 const $ = new Env('鲜豆庄园');
 
