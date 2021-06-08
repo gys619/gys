@@ -1,3 +1,6 @@
+/*
+11 0 * * *
+*/
 const $ = new Env('鲜豆庄园');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
