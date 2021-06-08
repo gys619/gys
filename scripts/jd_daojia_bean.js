@@ -1,11 +1,23 @@
 /*
 [task_local]
 
-10 0 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
+#鲜豆庄园
+
+0-59/30 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js, tag=鲜豆庄园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+
+================Loon==============
 
 [Script]
 
-cron "10 0 * * *"
+cron "0-59/30 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js,tag=鲜豆庄园
+
+===============Surge=================
+
+鲜豆庄园 = type=cron,cronexp="0-59/30 * * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js
+
+============小火箭=========
+
+鲜豆庄园 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zooCollect.js, cronexpr="0-59/30 * * * *", timeout=3600, enable=true
 */
 const $ = new Env('鲜豆庄园');
 
