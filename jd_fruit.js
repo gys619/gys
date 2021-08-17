@@ -183,7 +183,7 @@ async function initForFarm() {
 
 async function showMsg() {
   if ($.isNode() && process.env.FRUIT_NOTIFYY_CONTROL) {
-    $.ctrTemp = `${process.env.FRUIT_NOTIFYY_CONTROL}` === 'true';
+    $.ctrTemp = `${process.env.FRUIT_NOTIFYY_CONTROL}` === 'false';
   } else if ($.getdata('jdFruitNotify')) {
     $.ctrTemp = $.getdata('jdFruitNotify') === 'false';
   } else {
